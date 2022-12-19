@@ -8,7 +8,6 @@ Pour les test de regression visuelle, en général j'utilise un logiciel third p
 * Pour le reporting et les metrics j'utilise Qase.io grâce au plugin cypress-qase-reporter (non installé dans ce projet)
 
 Pour lancer le projet :
-* Si vous n'avez pas yarn, ``npm install --global yarn``(avec node) ou ``brew install yarn``(homebrew)
+* Si vous n'avez pas yarn, ``sudo npm install -g yarn``(avec node) ou ``brew install yarn``(homebrew)
 * Puis à la racine du projet ``yarn install``
-* ``cypress run``pour lancer le test dans le terminal
-* ``cypress open``pour lancer l'interface visuelle de cypress
+* ``yarn cypress open``pour lancer l'interface visuelle de cypress
